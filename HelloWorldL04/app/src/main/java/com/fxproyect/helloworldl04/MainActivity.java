@@ -2,6 +2,7 @@ package com.fxproyect.helloworldl04;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -11,6 +12,15 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+    protected void onResume(){
+        super.onResume();
+        Log.i(TAG, "MainActivity pasa a un segundo plano");
+    }
+
+    protected void onPause(){
+        super.onPause();
+        Log.i(TAG, "MainActivity pasa a un primer plano");
     }
 
     @Override
