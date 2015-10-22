@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.fxproyect.pantallasentrada.SplashActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:accessibilityLiveRegion="none">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="false"
+        android:layout_alignParentEnd="false"
+        android:background="@drawable/mathdice" />
+</RelativeLayout>
